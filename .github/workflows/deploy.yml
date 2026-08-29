@@ -25,6 +25,7 @@ jobs:
         with:
           repository: KongGithubDev/KongPortfolio-Website
           ref: main
+          token: ${{ secrets.DEPLOY_TOKEN }}
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
